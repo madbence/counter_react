@@ -1,0 +1,16 @@
+{
+  "name": "counter_react",
+  "version": "1.0.0",
+  "description": "React example",
+  "scripts": {
+    "build": "watchify -d -t babelify -o counter_bundle.js counter.js"
+  },
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-redux": "^4.0.0",
+    "redux": "^3.0.2",
+    "watchify": "^3.4.0"
+  }
+}
